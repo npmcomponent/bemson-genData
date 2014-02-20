@@ -1,18 +1,7 @@
 {
-  "name": "genData",
-  "version": "3.1.1",
+  "name": "bemson-gendata",
   "description": "A normalization pattern to build, query, and manipulate everything.",
-  "homepage": "https://github.com/bemson/genData",
-  "main": "src/gendata.js",
-  "scripts": {
-    "test": "node_modules/.bin/mocha"
-  },
-  "devDependencies": {
-    "mocha": "~1.7",
-    "sinon": "~1.5",
-    "chai": "~1.4",
-    "sinon-chai": "~2.3"
-  },
+  "version": "3.1.1",
   "keywords": [
     "data",
     "iterate",
@@ -20,17 +9,7 @@
     "generate",
     "recursive"
   ],
-  "author": {
-    "name": "Bemi Faison",
-    "email": "bemson@gmail.com",
-    "url": "https://github.com/bemson"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bemson/genData.git"
-  },
-  "engines": {
-    "node": ">= 0.5.0"
-  },
+  "main": "src/gendata.js",
+  "dependencies": {},
   "license": "MIT"
 }
